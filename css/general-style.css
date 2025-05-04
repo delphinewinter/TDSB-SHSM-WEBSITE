@@ -59,4 +59,76 @@ Medium: 11px
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/******************************************************/
+/* HEADING & PARAGRAPH STYLES*/
+/****************************************************/
+
+.heading-primary {
+  font-size: 5rem;
+  line-height: 2.5;
+  font-weight: 500;
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  line-height: 2.5;
+  font-weight: 400;
+}
+
+.text-description {
+  line-height: 2;
+}
+
+/******************************************************/
+/* GRID  STYLES*/
+/****************************************************/
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid:not(:last-child) {
+  margin-bottom: 9.6rem;
+}
+
+.grid--center-v {
+  align-items: center;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* .grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+} */
