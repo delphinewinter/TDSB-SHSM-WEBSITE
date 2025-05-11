@@ -9,117 +9,36 @@
       href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/general-style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/general-style.css" />
     <title>Specialist High Skills Major (SHSM)</title>
   </head>
   <body>
     <!-- header section --->
-    <header class="header">
-      <a href=""
-        ><img
-          class="logo"
-          alt="SHSM TDSB Logo"
-          src="img/SHSM-TDSBinCorner-Logo.png"
-      /></a>
-      <nav class="main-nav" id="top-page">
-        <ul class="main-nav-list">
-          <li>
-            <a class="main-nav-link" href="">WHAT IS SHSM?</a>
-            <ul class="dropdown">
-              <li><a href="#about-shsm" class="dropdwn-li">About SHSM</a></li>
-              <li>
-                <a href="#shsm-comp" class="dropdwn-li">SHSM COMPONENTS</a>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#">WHY SHSM?</a>
-            <ul class="dropdown">
-              <li><a href="" class="dropdwn-li">About SHSM</a></li>
-              <li><a href="" class="dropdwn-li">Bundle of Credits</a></li>
-              <li><a href="" class="dropdwn-li">Certifications</a></li>
-              <li><a href="" class="dropdwn-li">Career Exploration</a></li>
-              <li><a href="" class="dropdwn-li">Reach Ahead Experiences</a></li>
-              <li>
-                <a href="" class="dropdwn-li"
-                  >Sector Partnered Experiences (SPE)</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#">SHSM SECTORS</a>
-            <ul class="dropdown">
-              <li><a href="" class="dropdwn-li">About SHSM</a></li>
-              <li><a href="" class="dropdwn-li">Bundle of Credits</a></li>
-              <li><a href="" class="dropdwn-li">Certifications</a></li>
-              <li><a href="" class="dropdwn-li">Career Exploration</a></li>
-              <li><a href="" class="dropdwn-li">Reach Ahead Experiences</a></li>
-              <li>
-                <a href="" class="dropdwn-li"
-                  >Sector Partnered Experiences (SPE)</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#">SHSM SCHOOLS</a>
-            <ul class="dropdown">
-              <li><a href="" class="dropdwn-li">About SHSM</a></li>
-              <li><a href="" class="dropdwn-li">Bundle of Credits</a></li>
-              <li><a href="" class="dropdwn-li">Certifications</a></li>
-              <li><a href="" class="dropdwn-li">Career Exploration</a></li>
-              <li><a href="" class="dropdwn-li">Reach Ahead Experiences</a></li>
-              <li>
-                <a href="" class="dropdwn-li"
-                  >Sector Partnered Experiences (SPE)</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#">EMPLOYERS</a>
-            <ul class="dropdown">
-              <li><a href="" class="dropdwn-li">About SHSM</a></li>
-              <li><a href="" class="dropdwn-li">Bundle of Credits</a></li>
-              <li><a href="" class="dropdwn-li">Certifications</a></li>
-              <li><a href="" class="dropdwn-li">Career Exploration</a></li>
-              <li><a href="" class="dropdwn-li">Reach Ahead Experiences</a></li>
-              <li>
-                <a href="" class="dropdwn-li"
-                  >Sector Partnered Experiences (SPE)</a
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            <a class="main-nav-link" href="#">CONTACT</a>
-            <ul class="dropdown">
-              <li><a href="" class="dropdwn-li">About SHSM</a></li>
-              <li><a href="" class="dropdwn-li">Bundle of Credits</a></li>
-              <li><a href="" class="dropdwn-li">Certifications</a></li>
-              <li><a href="" class="dropdwn-li">Career Exploration</a></li>
-              <li><a href="" class="dropdwn-li">Reach Ahead Experiences</a></li>
-              <li>
-                <a href="" class="dropdwn-li"
-                  >Sector Partnered Experiences (SPE)</a
-                >
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-    </header>
+
+    <!-- Placeholder for the navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Script to fetch and load the navbar -->
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar-placeholder').innerHTML = data;
+        })
+        .catch(error => console.log('Error loading navbar:', error));
+    </script>
+
+    <!-- Page Content -->
 
     <!-- end of header section --->
 
     <!-- hero section --->
     <main>
-      <section class="hero-section" id="about-shsm">
+      <section class="hero-section">
         <div class="hero container">
           <div class="hero-text-box">
-            <h1 class="heading-primary">WHAT IS SHSM?</h1>
+            <h1 class="heading-primary" id="about-shsm">WHAT IS SHSM?</h1>
             <div class="embedded-video">
               <iframe
                 width="960"
@@ -142,7 +61,7 @@
               to acquire the skills and experience that will assist them in
               their post-secondary pathway:
             </p>
-            <ul class="hero-list">
+            <ul class="color-list">
               <li class="list-li">Apprenticeship training</li>
               <li class="list-li">College</li>
               <li class="list-li">University</li>
@@ -179,7 +98,7 @@
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13"
+                  d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
                 />
               </svg>
             </span>
@@ -189,7 +108,7 @@
             Students complete a specific bundle of 8-10 courses related to their
             chosen field consisting of:
           </p>
-          <ul class="shsm-list">
+          <ul class="color-list">
             <li class="list-li">Four major credits.</li>
             <li class="list-li">Two to four other required credits.</li>
             <li class="list-li">
@@ -210,7 +129,7 @@
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13"
+                  d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
                 />
               </svg>
             </span>
@@ -236,7 +155,7 @@
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13"
+                  d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
                 />
               </svg>
             </span>
@@ -265,7 +184,7 @@
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13"
+                  d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
                 />
               </svg>
             </span>
@@ -290,7 +209,7 @@
                 <path
                   stroke-linecap="round"
                   stroke-linejoin="round"
-                  d="m18.375 12.739-7.693 7.693a4.5 4.5 0 0 1-6.364-6.364l10.94-10.94A3 3 0 1 1 19.5 7.372L8.552 18.32m.009-.01-.01.01m5.699-9.941-7.81 7.81a1.5 1.5 0 0 0 2.112 2.13"
+                  d="m5.25 4.5 7.5 7.5-7.5 7.5m6-15 7.5 7.5-7.5 7.5"
                 />
               </svg>
             </span>
@@ -302,7 +221,7 @@
             insight into the relationship between their sector program and how
             the following are used within the sector:
           </p>
-          <ul class="shsm-list">
+          <ul class="color-list">
             <li class="list-li">​Mathematical Literacy</li>
             <li class="list-li">Contextualized Coding</li>
             <li class="list-li">
@@ -317,13 +236,13 @@
 
     <!-- footer section --->
 
-    <!-- <section class="footer-section">
+    <section class="footer-section">
       <div class="footer container">
         <div class="footer-text-box"></div>
       </div>
-    </section> -->
+    </section>
 
     <!-- end of footer section --->
   </body>
-  <link rel="stylesheet" href="script.js" />
+  <link rel="stylesheet" href="../script.js" />
 </html>

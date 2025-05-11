@@ -126,8 +126,6 @@
   max-width: 90rem;
   margin: 0 auto;
   padding: 0 3.2rem;
-  /* display: grid; */
-  /* gap: 9.6rem; */
   align-items: center;
 }
 
@@ -144,38 +142,17 @@
   color: #fff;
 }
 
-.hero-list {
-  list-style-type: disc;
-  margin-left: 6rem;
-}
-
-.hero-list li {
-  padding-top: 2rem;
-  list-style: none;
-  position: relative;
-  padding-left: 1.5em;
-}
-
-.hero-list li::before {
-  content: "•";
-  position: absolute;
-  left: 0;
-  color: #FBBF24;
-}
-
 
 /*********************/
 /* SHSM COMPONENT SECTION */
 /*********************/
 
 .shsm-section {
-  background-color: #240926;
+  background-color: #930044;
   padding: 4.8rem 0 9.6rem 0;
   color: #fff;
   margin-bottom: 9.6rem;
-
 }
-
 
 .shsm-text-box {
   display: grid;
@@ -209,11 +186,138 @@
 }
 
 /*********************/
+/* WHY SHSM SECTION */
+/*********************/
+
+.whyshsm-section {
+  background-color: #4472A7;
+  padding: 4.8rem 0 9.6rem 0;
+  margin: 6rem;
+  margin-bottom: 9.6rem;
+  color: #fff;
+}
+
+.whyshsm {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  align-items: center;
+}
+
+.whyshsm-li {
+  width: 90rem;
+}
+
+/*********************/
+/* SECTOR COOP SECTION */
+/*********************/
+
+.sector-section {
+  background-color: #930044;
+  padding: 4.8rem 0 9.6rem 0;
+  margin: 6rem;
+  margin-bottom: 9.6rem;
+  color: #fff;
+}
+
+.sector {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  align-items: center;
+}
+
+/*********************/
+/* SCHOLAR COOP SECTION */
+/*********************/
+
+.scholar-section {
+  padding: 3.2rem 0 9.6rem 0;
+  color: #48114C;
+  margin-bottom: 9.6rem;
+}
+
+.scholar-text-box {
+  display: grid;
+  gap: 1.2rem;
+  font-size: 2rem;
+  line-height: 1.6;
+  align-items: center;
+}
+
+.card-wrapper {
+
+  margin-top: 5rem;
+  display: grid;
+  place-items: center;
+  color: #fff;
+  line-height: 1.2;
+  font-size: 1.6rem;
+  justify-content: center;
+}
+
+.card {
+  background-color: #077c96;
+  width: 70rem;
+  height: 50rem;
+}
+
+.card-body {
+  display: grid;
+  gap: 2rem;
+  padding: 4rem;
+  align-items: start;
+  justify-items: start;
+}
+
+
+.card-text {
+  line-height: 3rem;
+}
+
+.card-img {
+  width: 70rem;
+}
+
+.card-btn {
+  display: inline-block;
+  background-color: #930044;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+}
+
+.card-btn:hover {
+  background-color: #720035;
+  color: #fff;
+}
+
+/*********************/
+/* POST-SEC COOP SECTION */
+/*********************/
+
+.post-sec-section {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 4.8rem 0 9.6rem 0;
+  margin-bottom: 9.6rem;
+}
+
+.post-sec {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+  align-items: center;
+}
+
+
+/*********************/
 /* FOOTER SECTION */
 /*********************/
 
 .footer-section {
-  background-color: #F57996;
+  background-color: #077c96;
   padding: 4.8rem 0 9.6rem 0;
   color: #fff;
 }

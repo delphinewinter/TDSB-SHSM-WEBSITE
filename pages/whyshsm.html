@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/general-style.css" />
+    <title>Specialist High Skills Major (SHSM)</title>
+  </head>
+  <body>
+    <!-- header section --->
+    <!-- Placeholder for the navbar -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Script to fetch and load the navbar -->
+    <script>
+      fetch('navbar.html')
+        .then(response => response.text())
+        .then(data => {
+          document.getElementById('navbar-placeholder').innerHTML = data;
+        })
+        .catch(error => console.log('Error loading navbar:', error));
+    </script>
+
+    <!-- Page Content -->
+    <!-- end of header section --->
+
+    <!-- why shsm section --->
+<main>
+  <section class="whyshsm-section" id="why-shsm">
+    <div class="whyshsm container">
+      <div class="shsm-text-box">
+        <h1 class="heading-primary">Why SHSM?</h1>
+        <p class="text-description">
+          Pursuing a Specialist High Skills Major can help students:
+        </p>
+        <ul class="color-list whyshsm-li">
+          <li class="list-li">Customize their secondary school education to suit their interests and talents through a specialized package of credits</li>
+          <li class="list-li">Develop specialized knowledge and skills</li>
+          <li class="list-li">
+            Explore, identify, and refine career goals - cooperative education credits allow students to practice and refine skill development, network with professionals working in the sector and gain sector-specific employment experience
+          </li>
+          <li class="list-li">
+            Gain sector-recognized certifications
+          </li>
+          <li class="list-li">
+            Get career-relevant training
+          </li>
+          <li class="list-li">
+            Engage in STEM-related activities that develop innovation, creativity and entrepreneurship
+          </li>
+          <li class="list-li">
+            Make informed decisions about their future
+          </li>
+          <li class="list-li">
+            Network with potential employers
+          </li>
+        </ul>
+        <p class="text-description">
+          SHSM programs are available in 19 sectors, please refer to the SHSM Sectors tab to see which options are available to TDSB students.
+        </p>
+      </div>
+    </div>
+</main>
+    <!-- end of why shsm section --->
+
+    <!-- sector coop section --->
+
+    <section class="sector-section">
+      <div class="sector container">
+        <div class="shsm-text-box">
+          <h1 class="heading-primary" id="sector">Sector Specific CO-OP</h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- end of sector coop section --->
+
+    <!-- scholar section --->
+
+        <section class="scholar-section">
+          <div class="scholar container">
+            <div class="shsm-text-box">
+              <h1 class="heading-primary" id="scholar">Scholarships and Bursaries</h1>
+            </div>
+            <div class="card-wrapper">
+              <div class="card">
+              <img src="../img/OCTE SHSM.png" class="card-img" alt="...">
+              <div class="card-body">
+                <p class="card-text">Post-Secondary Awards & Scholarships. Various Colleges, Universities, and Industry Organizations recognize and recruit Specialist High Skills Major (SHSM) students through specific SHSM bursaries and scholarships.</p>
+                <a href="https://octe.ca/resources/shsm/certifications-and-awareness-training/shsm-post-secondary-connections" class="card-btn" target="_blank">Learn More</a>
+              </div>
+            </div>
+            
+          </div>
+        </section>
+    
+    <!-- end of sector coop section --->
+
+    <!-- post secondary section --->
+
+      <section class="post-sec-section">
+        <div class="post-sec container">
+          <div class="shsm-text-box">
+            <h1 class="heading-primary" id="post-sec">Post Secondary Applications</h1>
+          </div>
+        </div>
+      </section>
+
+    <!-- end of sector coop section --->
+
+    <!-- footer section --->
+
+    <section class="footer-section">
+      <div class="footer container">
+        <div class="footer-text-box">
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- end of footer section --->
+  </body>
+  <link rel="stylesheet" href="../script.js" />
+</html>

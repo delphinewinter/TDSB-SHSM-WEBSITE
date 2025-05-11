@@ -7,8 +7,10 @@ TDSB Specialist High Skills Major (SHSM) Program showcases projects and resource
 ## Branding
 
 #781d7e
-#ac1a5e
+#930044
+#077c96
 #FBBF24
+#0056b3
 
 ## What is SHSM?
 
@@ -52,3 +54,22 @@ SPE activities are experiential activities co-delivered with a sector partner. T
 ​Mathematical Literacy
 Contextualized Coding
 ICE (Innovation, Creativity and Entrepreneurship)
+
+## Why SHSM (NEW PAGE)
+
+Pursuing a Specialist High Skills Major can help students:
+Customize their secondary school education to suit their interests and talents through a specialized package of credits
+Develop specialized knowledge and skills
+Explore, identify, and refine career goals - cooperative education credits allow students to practice and refine skill development, network with professionals working in the sector and gain sector-specific employment experience
+Gain sector-recognized certifications
+Get career-relevant training
+Engage in STEM-related activities that develop innovation, creativity and entrepreneurship
+Make informed decisions about their future
+Network with potential employers
+SHSM programs are available in 19 sectors, please refer to the SHSM Sectors tab to see which options are available to TDSB students.
+
+## Sector Specific COOP
+
+## Scholarships and Bursaries
+
+## Post Secondary Applications
