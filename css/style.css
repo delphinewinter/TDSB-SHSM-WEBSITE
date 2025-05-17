@@ -119,7 +119,7 @@
   background-color: #86348b;
   padding: 4.8rem 0 9.6rem 0;
   margin: 6rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 8rem;
 }
 
 .hero {
@@ -151,7 +151,7 @@
   background-color: #930044;
   padding: 4.8rem 0 9.6rem 0;
   color: #fff;
-  margin-bottom: 9.6rem;
+  margin-bottom: 8rem;
 }
 
 .shsm-text-box {
@@ -193,7 +193,7 @@
   background-color: #4472A7;
   padding: 4.8rem 0 9.6rem 0;
   margin: 6rem;
-  margin-bottom: 9.6rem;
+  margin-bottom: 8rem;
   color: #fff;
 }
 
@@ -234,7 +234,7 @@
 .scholar-section {
   padding: 3.2rem 0 9.6rem 0;
   color: #48114C;
-  margin-bottom: 9.6rem;
+  margin-bottom: 8rem;
 }
 
 .scholar-text-box {
@@ -301,7 +301,7 @@
   background-color: #0056b3;
   color: #fff;
   padding: 4.8rem 0 9.6rem 0;
-  margin-bottom: 9.6rem;
+  margin-bottom: 8rem;
 }
 
 .post-sec {
@@ -310,6 +310,155 @@
   padding: 0 3.2rem;
   align-items: center;
 }
+
+/*********************/
+/* SHSM SECTOR SECTION */
+/*********************/
+
+.shsmsector-section {
+  padding: 4.8rem 0 9.6rem 0;
+  color: #333;
+  margin-bottom: 8rem;
+}
+
+.shsmsector-text-box {
+  display: grid;
+  gap: 1.2rem;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.shsmsector-text-box .heading-primary {
+  color: #1E3A8A;
+}
+
+.shsmsector-text-box p {
+  margin-bottom: 4rem;
+}
+
+.sector-cards {
+  align-items: start;
+}
+
+.sector-card {
+  width: 30rem;
+  text-align: center;
+  overflow: hidden;
+  box-shadow: 0 0.8rem 1.6rem rgba(0, 0, 0, 0.2);
+  border-radius: 1.2rem;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.sector-card:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 1.2rem 2.4rem rgba(0, 0, 0, 0.2);
+}
+
+.sector-cards>.sector-card:last-child {
+  grid-column: 2;
+}
+
+.sectorcard-body {
+  background-color: #1E3A8A;
+  padding: 2rem;
+  color: #fff;
+}
+
+.sectorcard-img {
+  width: 100%;
+  display: block;
+}
+
+.card-title {
+  font-weight: 400;
+  padding-top: 0rem;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  text-transform: uppercase;
+}
+
+.sectorcard-btn {
+  /* position: relative; */
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 0.5rem;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  transition: color 0.3s ease;
+}
+
+.sectorcard-btn::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 0.2rem;
+  width: 100%;
+  background-color: #FBBF24;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sectorcard-btn:hover::after {
+  transform: scaleX(1);
+}
+
+.sectorcard-btn svg {
+  stroke-width: 2.5;
+  width: 2rem;
+  height: 2rem;
+  margin-left: 0.5rem;
+  vertical-align: middle;
+  stroke: currentColor;
+  transition: transform 0.3s ease-in-out;
+}
+
+.sectorcard-btn:hover svg {
+  color: #FBBF24;
+  transform: translateX(0.3rem);
+}
+
+/*********************/
+/* SHSM SCHOOLS SECTION */
+/*********************/
+
+.school-section {
+  background-color: #930044;
+  padding: 4.8rem 0 9.6rem 0;
+  color: #fff;
+  margin-bottom: 8rem;
+  padding-bottom: 6rem;
+}
+
+.school .text-description {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.school-section .accordion-button {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1.2rem 1.5rem;
+}
+
+.school-section .accordion-body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  padding: 1.5rem 2rem;
+}
+
+.accordion-collapse {
+  transition: height 0.4s ease;
+  overflow: hidden;
+}
+
+.accordion-button {
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
 
 
 /*********************/
