@@ -119,7 +119,7 @@
   background-color: #86348b;
   padding: 4.8rem 0 9.6rem 0;
   margin: 6rem;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
 }
 
 .hero {
@@ -151,7 +151,7 @@
   background-color: #930044;
   padding: 4.8rem 0 9.6rem 0;
   color: #fff;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
 }
 
 .shsm-text-box {
@@ -182,7 +182,7 @@
   background-color: #4472A7;
   padding: 4.8rem 0 9.6rem 0;
   margin: 6rem;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
   color: #fff;
 }
 
@@ -223,7 +223,7 @@
 .scholar-section {
   padding: 3.2rem 0 9.6rem 0;
   color: #48114C;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
 }
 
 .scholar-text-box {
@@ -290,7 +290,7 @@
   /* background-color: #0056b3; */
   color: #333;
   padding: 4.8rem 0 9.6rem 0;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
 }
 
 .post-sec {
@@ -307,7 +307,7 @@
 .shsmsector-section {
   padding: 4.8rem 0 9.6rem 0;
   color: #333;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
 }
 
 .shsmsector-text-box {
@@ -418,7 +418,7 @@
   background-color: #930044;
   padding: 4.8rem 0 9.6rem 0;
   color: #fff;
-  margin-bottom: 8rem;
+  margin-bottom: 4.8rem;
   padding-bottom: 6rem;
 }
 
@@ -446,6 +446,12 @@
 
 .accordion-button {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.map-wrapper {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 4.8rem;
 }
 
 

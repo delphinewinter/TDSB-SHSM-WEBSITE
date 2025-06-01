@@ -151,10 +151,6 @@ ul {
   color: #FBBF24;
 }
 
-.shsmheads {
-  font-weight: 600;
-}
-
 .size-6 {
   width: 3rem;
   height: 3rem;
@@ -176,6 +172,11 @@ ul {
   object-fit: cover;
   border-radius: 0.5rem;
   margin-bottom: 1.5rem;
+}
+
+.shsmheads {
+  font-weight: 600;
+
 }
 
 /******************************************************/
