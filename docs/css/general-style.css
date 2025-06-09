@@ -180,7 +180,11 @@ img {
 
 .shsmheads {
   font-weight: 600;
+  line-height: 1.4;
+}
 
+#scholar {
+  line-height: 1.6;
 }
 
 /******************************************************/
